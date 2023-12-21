@@ -8,7 +8,7 @@ let i = 0;
 let result = 1;
 const userNumValue = prompt(`Введите число которое будет возведено в степень`);
 const userDegreeValue = prompt(`Введите степень в которую будете возводить число `);
-const isValid = !isNaN(userNumValue) && userNumValue.trim() && userDegreeValue.trim() && !isNaN(userDegreeValue) && Number.isInteger(+userDegreeValue) ? true : false
+const isValid = userNumValue !== null && userDegreeValue !== null && !isNaN(userNumValue) && userNumValue.trim() && userDegreeValue.trim() && !isNaN(userDegreeValue) && Number.isInteger(+userDegreeValue) ? true : false
 
 if(isValid)
   {function pow(num, degree) {

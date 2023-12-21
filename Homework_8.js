@@ -28,7 +28,7 @@ if(isValid)
       pow(num, degree);
     }
 
-    return userNumValue < 0 && userDegreeValue % 2 == 0 ? -result : result;
+    return result;
 }
 alert(pow(userNumValue, userDegreeValue));
 } else {

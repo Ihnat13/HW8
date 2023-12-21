@@ -32,7 +32,7 @@ if(isValid)
 }
 alert(pow(userNumValue, userDegreeValue));
 } else 
-if(userNumValue === null && userDegreeValue === null){
+if(userNumValue === null || userDegreeValue === null){
   alert(`As u wish`)
 }else {
   alert(`Error`)

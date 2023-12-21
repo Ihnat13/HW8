@@ -31,7 +31,9 @@ if(isValid)
     return result;
 }
 alert(pow(userNumValue, userDegreeValue));
-} else {
+} else if(userNumValue !== null && userDegreeValue !== null){
+  alert(`As u wish`)
+}else {
   alert(`Error`)
 }
 
